@@ -1,0 +1,15 @@
+{
+  "plugins": [
+    ["styled-components", { "ssr": true, "displayName": false, "preprocess": false, "minify": false } ]
+  ],
+  "presets": [
+    ["env", {
+      "plugins": [
+        ["styled-components", { "ssr": true, "displayName": false, "preprocess": false, "minify": false } ]
+      ],
+      "modules": false
+    }],
+    "stage-0",
+    "react"
+  ]
+}
